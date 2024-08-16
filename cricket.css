@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    padding: 5% 10%;
+  width: max-content;
+  height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  background-color: lightskyblue;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.run{
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+background-color: black;
+border-radius: 5px;
+color: white;
+}
+
+.counters{
+    font-size: 3vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: max-content;
+    padding:30px;
+}
+.counters div{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.counters div:hover{
+    background-color: rgb(75, 72, 72);
+}
+
+.counters div:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.manege{
+    justify-content: space-between;
+    display: flex;
+    font-size: 3vh;
+    width: 100%;
+    height: max-content;
+    padding:10px;
+}
+
+.manege div{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.manege div:hover{
+    background-color: rgb(75, 72, 72);
+}
+
+.manege div:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.Finish{
+    display: none;
+}
+
+.team{
+    background-color: black;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    font-size: 3vh;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
